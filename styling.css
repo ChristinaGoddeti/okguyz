@@ -1,0 +1,109 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	min-height:100vh;
+}
+.container
+{
+	   
+	    max-width:900px;
+	    width:400px;
+		background-color:white;
+		margin:20px auto;
+        padding:20px;
+        box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+}
+.container header
+{
+	font-size:24px;
+	font-weight:700;
+	margin-bottom:25px;
+	color:red;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+form
+{
+	margin-top:80px;
+	display:flex;
+	flex-direction:column;
+	gap:20px;
+}
+input[type="text"],
+input[type="password"]
+{
+	padding:5px;
+	border:1px solid blue;
+	width:100%;
+	border-radius:50px;
+	outline:none;
+	background-color:transparent;
+	margin:20px 10px;
+}
+.wrapper
+{
+	margin-bottom:5px;
+	display:flex;
+	align-items:center;
+	
+}
+label
+{
+	width:200px;
+	margin-right:10px;
+	font-size:14px;
+    position:relative;
+	left:10px;
+	color:black;
+	transition:.1s;
+}
+.remember_box
+{
+	display:flex;
+	align-items:center;
+	gap:5px;
+	font-size:12px;
+	color:red;
+	justify-content:space-between;
+}
+.remember
+{
+	display:flex;
+	align-items:center;
+	gap:5px;
+	color:red;
+}
+button
+{
+	border:none;
+	padding:10px;
+	border-radius:50px;
+	cursor:pointer;
+}
+	input:valid+label,
+	input:focus+label
+	{
+		background-color:white;
+		color:black;
+		transform:translate(10px,-20px);
+		padding:2px 5px;
+		font-size:15px;
+		border-radius:5px
+	}
+a
+{
+	color:red;
+}
+.signup
+{
+	text-align:center;
+	color:green;
+}
